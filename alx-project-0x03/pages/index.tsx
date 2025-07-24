@@ -11,6 +11,14 @@ export default function Home() {
     router.push(pageRoute, undefined, { shallow: false})
   }
 
+  const Home = () => {
+  return (
+   <div>
+    <h1> Welcome to Splash App </h1>
+   </div>
+  )
+}
+
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col justify-center items-center text-center">
       {/* Welcome Message */}
@@ -31,3 +39,4 @@ export default function Home() {
     </div>
   );
 }
+
